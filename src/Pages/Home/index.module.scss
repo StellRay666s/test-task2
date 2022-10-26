@@ -1,0 +1,29 @@
+h1 {
+  text-align: center;
+}
+
+.wrapperProduct {
+  width: 70%;
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 20px;
+  min-width: 340px;
+  border: 1px solid teal;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+.link {
+  text-align: center;
+  a {
+    background-color: teal;
+    text-align: center;
+    margin-bottom: 20px;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 6px;
+    color: white;
+  }
+}
